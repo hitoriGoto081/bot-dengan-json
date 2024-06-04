@@ -1,0 +1,56 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there! ",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later! ",
+    "required_words": ["see","bye","good bye"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine! ",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google. ",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education. ",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking. ",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "emotion",
+    "user_input": ["frustrating"],
+    "bot_response": "I understand your frustration. Is there anything I can help you with? ",
+    "required_words": ["frustrating"]
+  },
+  {
+    "response_type": "humor",
+    "user_input": ["what can you do"],
+    "bot_response": "Well, I can't walk a dog, but I can answer your questions and tell bad jokes! ",
+    "required_words": ["what", "can", "you", "do"]
+  },
+  {
+    "response_type": "search",
+    "user_input": ["weather", "Paris"],
+    "bot_response": "Let me check the weather in Paris for you... (searches web)",
+    "required_words": ["weather"]
+  }
+]
