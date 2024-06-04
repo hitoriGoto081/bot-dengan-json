@@ -1,4 +1,3 @@
-# JSON Chat Bot
-A simple Python chat bot project simplifying my previous chat bot by adding a JSON file.
-
-**NOTE:** All words that need to be recognised in the JSON file should be lowercased.
+Bot sederhana dengan respon berasal dari JSON
+untuk penggunaan silahkan pakai huruf kecil ketika di program di running
+NOTE: PROGRAM INI MASIH TAHAP COBA COBA JIKA ADA YANG MAU KEMBANGKAN SILAHKAN
